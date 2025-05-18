@@ -1,0 +1,22 @@
+{
+  "layer": "top",
+  "output": "HDMI-A-2",
+  "position": "top",
+  "modules-left": ["hyprland/workspaces"],
+  "modules-right": ["network", "pulseaudio", "memory", "clock"],
+
+  "clock": {
+    "format": "  {:%A, %H:%M}"
+  },
+  "network": {
+    "format-wifi": " {essid}",
+    "format-ethernet": " {ipaddr}",
+    "format-disconnected": ""
+  },
+  "pulseaudio": {
+    "format": " {volume}%"
+  },
+  "memory": {
+    "format": " {used} / {total}"
+  }
+}
